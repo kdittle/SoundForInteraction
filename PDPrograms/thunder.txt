@@ -1,0 +1,2 @@
+0, C:/Users/kyle.dittle/Desktop/SoundForInteraction/Sounds/Ambient/ShortThunder2.wav;
+1, C:/Users/kyle.dittle/Desktop/SoundForInteraction/Sounds/Ambient/ShortThunderClap.wav;

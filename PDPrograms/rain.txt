@@ -1,2 +1,2 @@
-0, C:/Users/Kyle/Desktop/SoundForInteraction/Sounds/Ambient/ShortRainClip.wav;
-1, C:/Users/Kyle/Desktop/SoundForInteraction/Sounds/Ambient/ShortRainClipHeavy.wav;
+0, C:/Users/kyle.dittle/Desktop/SoundForInteraction/Sounds/Ambient/ShortRainClip.wav;
+1, C:/Users/kyle.dittle/Desktop/SoundForInteraction/Sounds/Ambient/ShortRainClip2.wav;
