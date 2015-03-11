@@ -1,0 +1,14 @@
+0, Finals/AllYourBase.wav;
+1, Finals/Ambiance1.wav;
+2, Finals/Ambiance2.wav;
+3, Finals/Ambience3Outdoor.wav;
+4, Finals/Ambience4Booth.wav;
+5, Finals/AWinnerIsYou.wav;
+6, Finals/Character1_2.wav;
+7, Finals/Footstep3_2.wav;
+8, Finals/Footsteps_2.wav;
+9, Finals/Footsteps4_2.wav;
+10, Finals/SpecialFXDryErase_2.wav;
+11, Finals/SpecialFXSprayBottle_2.wav;
+12, Finals/SpecialFXSprayBottle_Single.wav;
+13, Finals/Speech2_2.wav;
