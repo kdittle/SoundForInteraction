@@ -2,10 +2,3 @@
 1, ../../Sounds/Ambient/Ambiance2.wav;
 3, ../../Sounds/Ambient/Ambience3Outdoor.wav;
 4, ../../Sounds/Ambient/Ambience4Booth.wav;
-5, ../../Sounds/Ambient/ShortRainClip.wav;
-6, ../../Sounds/Ambient/ShortRainClip2.wav;
-7, ../../Sounds/Ambient/ShortRainClipHeavy.wav;
-8, ../../Sounds/Ambient/ShortThunder2.wav;
-9, ../../Sounds/Ambient/ShortThunderClap.wav;
-10, ../../Sounds/Ambient/ShortWindHeavy.wav;
-11, ../../Sounds/Ambient/SubwayTrain.wav;

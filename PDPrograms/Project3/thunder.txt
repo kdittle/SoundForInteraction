@@ -1,0 +1,2 @@
+0, ../../Sounds/Ambient/ShortThunder2.wav;
+1, ../../Sounds/Ambient/ShortThunderClap.wav;

@@ -1,0 +1,3 @@
+0, ../../Sounds/Ambient/ShortRainClip.wav;
+1, ../../Sounds/Ambient/ShortRainClip2.wav;
+2, ../../Sounds/Ambient/ShortRainClipHeavy.wav;
