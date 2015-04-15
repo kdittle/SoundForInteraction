@@ -1,0 +1,8 @@
+0, ../../Sounds/SpecialFX/BlowingOnBottle.wav;
+1, ../../Sounds/SpecialFX/ChairSlidingOnHardFloor.wav;
+2, ../../Sounds/SpecialFX/DrainGurgle.wav;
+3, ../../Sounds/SpecialFX/MetalBrushSmallChain.wav;
+4, ../../Sounds/SepcialFX/ShowerKnobTurn.wav;
+5, ../../Sounds/SpecialFX/SpecialFXDryErase_2.wav;
+6, ../../Sounds/SpecialFX/SpecialFXSprayBottle_2.wav;
+7, ../../Sounds/SpecialFX/SpecialFXSprayBottle_Single.wav;

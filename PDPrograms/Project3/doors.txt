@@ -1,0 +1,2 @@
+0, ../../Sounds/DoorSounds/FridgeDoorOpen.wav;
+1, ../../Sounds/DoorSounds/FridgeDoorClose.wav;
