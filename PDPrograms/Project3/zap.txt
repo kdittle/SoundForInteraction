@@ -1,0 +1,2 @@
+0, ../../Sounds/SpecialFX/Zap1.wav;
+1, ../../Sounds/SpecialFX/Zap2.wav;

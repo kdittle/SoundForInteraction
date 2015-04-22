@@ -1,0 +1,4 @@
+0, ../../Sounds/CharacterSounds/Punch1.wav;
+1, ../../Sounds/CharacterSounds/Punch2.wav;
+2, ../../Sounds/CharacterSounds/Punch3.wav;
+3, ../../Sounds/CharacterSounds/Punch4.wav;

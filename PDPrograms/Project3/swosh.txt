@@ -1,0 +1,3 @@
+0, ../../Sounds/SpeciaFX/Swosh1.wav;
+1, ../../Sounds/SpecialFX/Swosh2.wav;
+2, ../../Sounds/SpecialFX/Swosh3.wav;
