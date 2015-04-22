@@ -1,3 +1,7 @@
-0, ../../Sounds/Footsteps/Footstep3_2.wav;
-1, ../../Sounds/Footsteps/Footsteps_2.wav;
-2, ../../Sounds/Footsteps/Footsteps4_2.wav;
+0, ../../Sounds/Footsteps/Footstep_solo_3_2.wav;
+1, ../../Sounds/Footsteps/Footstep_Solo_3_2_1.wav;
+2, ../../Sounds/Footsteps/Footstep_Solo_3_2_2.wav;
+3, ../../Sounds/Footsteps/FootstepSolo_5.wav;
+4, ../../Sounds/Footsteps/FootstepsSolo_2.wav;
+5, ../../Sounds/Footsteps/FootstepsSolo_3.wav;
+6, ../../Sounds/Footsteps/FootstepsSolo_4.wav;
