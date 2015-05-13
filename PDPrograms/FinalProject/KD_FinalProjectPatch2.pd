@@ -1,6 +1,6 @@
 #N canvas 660 50 566 401 10;
 #X obj 7 20 key;
-#N canvas 2314 250 700 584 move 0;
+#N canvas 2314 250 700 584 move 1;
 #X obj -47 25 inlet;
 #X obj -45 57 0;
 #X floatatom -75 227 5 0 0 0 - - -;
@@ -86,7 +86,7 @@
 #X connect 34 0 24 0;
 #X connect 34 0 7 1;
 #X restore 7 51 pd move;
-#N canvas 1692 279 974 800 StormyArea 1;
+#N canvas 1692 279 974 800 StormyArea 0;
 #X obj 103 621 readsf~;
 #X obj 89 722 dac~;
 #X msg 71 583 1;
@@ -142,11 +142,11 @@
 #X obj 65 73 > 0;
 #X obj 210 63 > 500;
 #X obj 137 66 < 500;
-#X obj 124 437 coll storm/rain.txt;
+#X obj 124 437 coll Storm/rain.txt;
 #C restore;
-#X obj 314 457 coll storm/ambient.txt;
+#X obj 314 457 coll Storm/ambient.txt;
 #C restore;
-#X obj 539 442 coll storm/thunder.txt;
+#X obj 539 442 coll Storm/thunder.txt;
 #C restore;
 #X connect 0 0 9 0;
 #X connect 0 1 6 0;
@@ -249,7 +249,7 @@
 #X connect 14 0 7 0;
 #X connect 15 0 8 0;
 #X restore 123 46 pd InitialStep;
-#N canvas 2080 274 974 755 TranquilArea 1;
+#N canvas 1915 209 974 755 TranquilArea 0;
 #X obj 103 621 readsf~;
 #X obj 89 722 dac~;
 #X msg 71 583 1;
@@ -376,7 +376,7 @@
 #X connect 50 0 5 0;
 #X connect 51 0 16 0;
 #X restore 138 123 pd TranquilArea;
-#N canvas 1808 192 974 800 CaveArea 1;
+#N canvas 1808 192 974 800 CaveArea 0;
 #X obj 103 621 readsf~;
 #X obj 89 722 dac~;
 #X msg 71 583 1;
@@ -504,7 +504,7 @@
 #X connect 50 0 16 0;
 #X connect 51 0 5 0;
 #X restore 139 152 pd CaveArea;
-#N canvas 2059 260 974 800 DesolateArea 1;
+#N canvas 1777 183 974 800 DesolateArea 1;
 #X obj 103 621 readsf~;
 #X obj 89 722 dac~;
 #X msg 71 583 1;
