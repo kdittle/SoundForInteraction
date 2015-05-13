@@ -5,6 +5,6 @@
 4, ../../../Sounds/Voice/MurlSound.wav;
 5, ../../../Sounds/Voice/LowGrowl.wav;
 6, ../../../Sounds/Voice/WatchYourStep.wav;
-7, ../../../Sounds/Voice/turnBack05.wav;
+7, ../../../Sounds/Voice/TurnBack05.wav;
 8, ../../../Sounds/Voice/ThisLifeIsANightmare.wav;
-9, ../../../Sounds/Sounds/CanYouFeelTheMisery.wav;
+9, ../../../Sounds/Voice/CanYouFeelTheMisery.wav;

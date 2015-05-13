@@ -1,6 +1,6 @@
-#N canvas 591 53 566 401 10;
+#N canvas 660 50 566 401 10;
 #X obj 7 20 key;
-#N canvas 1313 81 700 584 move 0;
+#N canvas 2314 250 700 584 move 0;
 #X obj -47 25 inlet;
 #X obj -45 57 0;
 #X floatatom -75 227 5 0 0 0 - - -;
@@ -86,7 +86,7 @@
 #X connect 34 0 24 0;
 #X connect 34 0 7 1;
 #X restore 7 51 pd move;
-#N canvas 630 211 974 800 StormyArea 0;
+#N canvas 1692 279 974 800 StormyArea 1;
 #X obj 103 621 readsf~;
 #X obj 89 722 dac~;
 #X msg 71 583 1;
@@ -212,7 +212,7 @@
 #X connect 50 0 26 0;
 #X connect 51 0 16 0;
 #X restore 31 153 pd StormyArea;
-#N canvas 259 299 450 444 InitialStep 0;
+#N canvas 259 299 450 444 InitialStep 1;
 #X obj 77 42 receive xLoc;
 #X obj 174 41 receive yLoc;
 #X floatatom 78 75 5 0 0 0 - - -;
@@ -237,6 +237,7 @@
 #X connect 4 0 6 0;
 #X connect 5 0 6 1;
 #X connect 6 0 14 0;
+#X connect 6 0 10 0;
 #X connect 7 0 12 0;
 #X connect 8 0 9 0;
 #X connect 9 0 11 0;
@@ -248,7 +249,7 @@
 #X connect 14 0 7 0;
 #X connect 15 0 8 0;
 #X restore 123 46 pd InitialStep;
-#N canvas 493 278 974 800 TranquilArea 0;
+#N canvas 2080 274 974 755 TranquilArea 1;
 #X obj 103 621 readsf~;
 #X obj 89 722 dac~;
 #X msg 71 583 1;
@@ -324,6 +325,7 @@
 #X connect 9 0 1 0;
 #X connect 9 0 1 1;
 #X connect 10 0 19 0;
+#X connect 10 1 32 0;
 #X connect 12 0 10 0;
 #X connect 13 0 10 0;
 #X connect 14 0 12 0;
@@ -374,7 +376,7 @@
 #X connect 50 0 5 0;
 #X connect 51 0 16 0;
 #X restore 138 123 pd TranquilArea;
-#N canvas 494 213 974 800 CaveArea 1;
+#N canvas 1808 192 974 800 CaveArea 1;
 #X obj 103 621 readsf~;
 #X obj 89 722 dac~;
 #X msg 71 583 1;
@@ -450,6 +452,7 @@
 #X connect 9 0 1 0;
 #X connect 9 0 1 1;
 #X connect 10 0 19 0;
+#X connect 10 1 33 0;
 #X connect 12 0 10 0;
 #X connect 13 0 10 0;
 #X connect 14 0 12 0;
@@ -461,6 +464,7 @@
 #X connect 19 0 11 0;
 #X connect 19 0 11 1;
 #X connect 20 0 30 0;
+#X connect 20 1 27 0;
 #X connect 22 0 20 0;
 #X connect 23 0 20 0;
 #X connect 24 0 22 0;
@@ -500,7 +504,7 @@
 #X connect 50 0 16 0;
 #X connect 51 0 5 0;
 #X restore 139 152 pd CaveArea;
-#N canvas 403 209 974 800 DesolateArea 0;
+#N canvas 2059 260 974 800 DesolateArea 1;
 #X obj 103 621 readsf~;
 #X obj 89 722 dac~;
 #X msg 71 583 1;
@@ -540,12 +544,12 @@
 #X obj 65 73 > 0;
 #X obj 137 66 < 500;
 #X obj 210 63 < 500;
+#X obj 130 362 random 6;
 #X obj 124 437 coll Desolate/ambient.txt;
 #C restore;
-#X obj 130 362 random 6;
+#X obj 325 200 random 28;
 #X obj 319 274 coll Desolate/voices.txt;
 #C restore;
-#X obj 325 200 random 20;
 #X connect 0 0 9 0;
 #X connect 0 1 6 0;
 #X connect 2 0 0 0;
@@ -554,8 +558,8 @@
 #X connect 4 1 0 0;
 #X connect 5 0 4 0;
 #X connect 6 0 17 0;
-#X connect 6 0 36 0;
-#X connect 7 0 35 0;
+#X connect 6 0 35 0;
+#X connect 7 0 36 0;
 #X connect 8 0 9 1;
 #X connect 9 0 1 0;
 #X connect 9 0 1 1;
@@ -566,8 +570,8 @@
 #X connect 15 0 14 0;
 #X connect 15 1 10 0;
 #X connect 16 0 15 0;
-#X connect 17 0 38 0;
-#X connect 18 0 37 0;
+#X connect 17 0 37 0;
+#X connect 18 0 38 0;
 #X connect 19 0 20 1;
 #X connect 20 0 11 0;
 #X connect 20 0 11 1;
@@ -577,10 +581,10 @@
 #X connect 23 0 33 0;
 #X connect 24 0 34 0;
 #X connect 25 0 26 0;
-#X connect 26 0 27 0;
 #X connect 26 0 8 0;
 #X connect 26 0 19 0;
-#X connect 27 0 6 0;
+#X connect 26 0 6 0;
+#X connect 26 0 17 0;
 #X connect 28 0 25 0;
 #X connect 29 0 30 0;
 #X connect 30 0 25 0;
@@ -589,10 +593,10 @@
 #X connect 32 0 31 0;
 #X connect 33 0 31 1;
 #X connect 34 0 29 0;
-#X connect 35 0 5 0;
-#X connect 36 0 7 0;
-#X connect 37 0 16 0;
-#X connect 38 0 18 0;
+#X connect 35 0 7 0;
+#X connect 36 0 5 0;
+#X connect 37 0 18 0;
+#X connect 38 0 16 0;
 #X restore 30 122 pd DesolateArea;
 #X text 42 14 movement wasd keys;
 #X text 124 27 That first step;

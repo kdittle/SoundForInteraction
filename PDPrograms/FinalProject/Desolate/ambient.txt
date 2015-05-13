@@ -1,2 +1,2 @@
 0, ../../../Sounds/Ambient/Ambiance1.wav;
-1, ../../../Sounds/Ambient/Ambience4Booth.wav;
+1, ../../../Sounds/Ambient/Ambiance4Booth.wav;
