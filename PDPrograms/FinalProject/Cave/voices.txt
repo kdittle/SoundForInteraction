@@ -1,0 +1,7 @@
+0, ../../../Sounds/Voice/LowGrowl.wav;
+1, ../../../Sounds/BreatheSounds/SimpleSoloBreath.wav;
+2, ../../../Sounds/Sounds/CanYouFeelTheMisery.wav;
+3, ../../../Sounds/Voice/turnBack01.wav;
+4, ../../../Sounds/Voice/turnBack03.wav;
+5, ../../../Sounds/Voice/turnBack04.wav;
+6, ../../../Sounds/Voice/turnBack05.wav;
