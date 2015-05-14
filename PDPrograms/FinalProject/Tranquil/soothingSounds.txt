@@ -1,9 +1,0 @@
-0, ../../../Sounds/Ambient/Birds/Birdchrips.wav;
-1, ../../../Sounds/Ambient/Birds/DoubleBirdChirp.wav;
-2, ../../../Sounds/Ambient/Birds/DoublebirdChirp2.wav;
-3, ../../../Sounds/Ambient/Birds/GroupBirdChirp.wav;
-4, ../../../Sounds/Ambient/Birds/ShortQuickBirdChirp.wav;
-5, ../../../Sounds/Ambient/Birds/SoftSingleBirdChirp.wav;
-6, ../../../Sounds/Ambient/Birds/SoftSingleBirdChirp2.wav;
-7, ../../../Sounds/Ambient/Birds/SoftSingleBirdChirp.3.wav;
-

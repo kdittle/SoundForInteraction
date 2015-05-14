@@ -1,2 +1,0 @@
-0, ../../../Sounds/Ambient/SoftWindAmbiance.wav;
-1, ../../../Sounds/Ambient/SoftWindAmbience2.wav;
